@@ -1,9 +1,11 @@
 # SCI Research Workflow
 
-Use one primary owner for each task. Work solo by default; start the six specialist roles only when the user explicitly requests a multi-agent project. The user controls model selection, and the main agent keeps final decisions. Never fabricate sources, experiments or results.
+Use one primary owner per task. Follow the user's scope and applicable higher-priority instructions. Work solo by default. Activate the six-role workflow only when the user explicitly requests a multi-subagent project. Other bounded delegation requires explicit user authorization and model choices. Delegate only when the client can honor those choices. The main agent retains decisions and user-facing signoff.
 
-Use `.agents/skills/sci-innovation-selection/SKILL.md` for research idea selection and only the stages requested. Separate verified evidence, hypotheses and unknowns; an experimental plan does not authorize execution. Protect confidential research and request authorization before sharing unpublished material with external services.
+Route literature discovery to `.agents/skills/sci-literature-search/SKILL.md`, idea selection to `sci-innovation-selection`, manuscript drafting or editing to `sci-manuscript-writing`, and read-only manuscript review to `sci-peer-review`. Read only the stages required. Do not turn a short edit or a single question into an end-to-end project.
 
-The six roles in `.codex/agents/` are bounded specialists: literature scout, novelty architect, adversarial reviewer, experiment designer, experiment engineer and paper auditor. Reviewers do not rewrite manuscripts; execute GPU jobs only within explicit authorization and protect active workloads. Use the target environment's actual model and concurrency capabilities.
+Never invent papers, citations, experiments or results. Separate evidence, interpretation, hypotheses and unknowns. Preserve data, comparison direction, uncertainty, negative results and legitimate limitations. Protect unpublished content; check authorization and venue policy before submitting confidential material to external services.
 
-For manuscript drafting, select appropriate language and writing skills with the user; preserve data, evidence, uncertainty and citations. Configuration and instructions cannot enforce operating-system isolation or permissions.
+For SCI manuscript drafting or rewriting, deliver the requested Chinese text first and wait for the user's decision on an English stage. An explicit English-only task, translation request, literal-only constraint or read-only review operates within its stated scope. One writing owner integrates authorized changes and checks scientific content; reviewers report findings without editing the paper.
+
+An experimental plan is not execution authorization. Record actual datasets, commands, hardware, seeds, results and failures for approved work. Do not interfere with other jobs. Agent instructions are not operating-system isolation; use actual permissions and process controls where needed.

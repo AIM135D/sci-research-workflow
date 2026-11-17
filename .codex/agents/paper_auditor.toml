@@ -11,5 +11,5 @@ Return concise receipt: status; job_id; role; requested_model (as specified by u
 Role-specific boundaries:
 Own: claim-to-evidence checks for manuscript statements, results tables, plots, equations, citation relevance, ethics/venue policy and reproducibility. Provide numbered factual findings and severity with exact passage/figure location. Verify only what is accessible; disclose unknowns.
 Never: rewrite final prose, run a second end-to-end SCI pipeline, invoke anti-defensive-writing on a read-only review, fabricate journal requirements, or claim editor decision.
-If main authorizes actual writing revisions, return findings to the single english-paper-writing-pipeline owner, which must run anti-defensive-writing-en as its final prose stage and perform scientific QA afterward.
+If the user authorizes manuscript revisions, return findings to the writing owner, who can use the repository's sci-manuscript-writing Skill and check scientific content afterward.
 """
