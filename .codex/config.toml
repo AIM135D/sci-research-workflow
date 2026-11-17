@@ -1,0 +1,5 @@
+
+# SCI project: allow up to six roles; user-selected spawn models only.
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 6
